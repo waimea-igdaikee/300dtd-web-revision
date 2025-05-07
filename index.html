@@ -1,35 +1,43 @@
 <!doctype html>
-<html lang="en">
-  <head>
+<html lang="en" data-theme="light">
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.violet.min.css"
-    >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.violet.min.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>My Web Site.</title>
-  </head>
+</head>
+
 <body>
     <header>
         <nav>
             <ul>
-            <li><strong>Acme Corp</strong></li>
+                <li><strong>Acme Corp</strong></li>
             </ul>
             <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Forms</a></li>
-            <li><a href="#">About</a></li>
+                <li><a role="button" href="index.html">Home</a></li>
+                <li><a role="button" href="forms.html">Forms</a></li>
+                <li><a role="button" href="about.html">About</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h1>Hello World!</h1>
+        <section id="hero">
+            <h1>Hello World!</h1>
+        </section>
+
+        <section>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nihil, quos aliquam nam, error ut sunt
+            maxime earum, ex labore dolorum in eum totam! Deserunt magni placeat et nulla dicta!
+        </section>
     </main>
 
     <footer>
         &copy; Indiana Daikee
     </footer>
 </body>
+
 </html>
